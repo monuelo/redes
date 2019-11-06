@@ -1,7 +1,7 @@
 from socket import *
 
 serverName = "localhost"
-serverPort = 12000
+serverPort = 6789
 
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 serverAddress = (serverName, serverPort)
