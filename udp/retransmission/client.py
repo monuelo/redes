@@ -12,7 +12,7 @@ def connect(function, args):
     new_connection.join(timeout=2)
 
 serverName = "localhost"
-serverPort = 12000
+serverPort = 15000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 serverAddress = (serverName, serverPort)
 

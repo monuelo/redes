@@ -64,7 +64,7 @@ def connection_handler():
         sent = serverSocket.sendto(result, address)
 
 
-serverPort = 12000
+serverPort = 15000
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverAddress = ('localhost', serverPort)
 serverSocket.bind(serverAddress)
